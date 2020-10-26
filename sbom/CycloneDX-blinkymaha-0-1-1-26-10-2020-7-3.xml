@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<bom serialNumber="urn:uuid:2bca4d04-96e8-4a25-6d4e-0f502a5076b2" 
+version = "1" xmlns="http://cyclonedx.org/schema/bom/1.2">
+	<metadata>
+	  <timestamp>2020-10-26T11:03:00Z</timestamp>
+	  <authors>
+	    <author>
+              <name>sFractal-Consulting</name>
+              <email></email>
+	    </author>
+	  </authors>
+	  <component type="device" bom-ref="fe62124c-c651-9840-3b20-339f5521ff56">
+	    <name>BlinkyMaHa</name>
+	    <version>0.1.1</version>
+	    <purl>pkg:supplier/sFractal-Consulting/BlinkyMaHa@0.1.1</purl>
+	  </component>
+	  <manufacture>
+	    <name>sFractal-Consulting</name>
+	    <url></url>
+	    <contact>
+              <name>sFractal-Consulting</name>
+              <email></email>
+	    </contact>
+	  </manufacture>
+	  <supplier>
+	    <name>
+	      sFractal-Consulting
+	    </name>
+	  </supplier>
+	</metadata>
+      <components>
+</components>
+<dependencies>
+</dependencies>
+
+</bom>

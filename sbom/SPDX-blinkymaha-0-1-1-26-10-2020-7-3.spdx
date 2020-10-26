@@ -1,0 +1,71 @@
+## Document Header
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: blinkymaha 0.1.1
+DocumentNamespace: http://blinkymaha.sfractal.com
+## *** Framing Baseline Element
+## 2.2.1 Author Name
+## Creator: Organization: Organization-Division()
+## Created should be in ISO 8601 standard, UTC format: YYYY-MM-DDThh:mm:ssZ
+## Created: 2019-12-25T11:00:00Z
+Creator: Organization: sFractal-Consulting
+Created: 2020-10-26T11:03:00Z
+CreatorComment: <text>drafting blinkymaha SBOM. This 0.1.1 draft being created before starting to add code to repo (https://github.com/sparrell/BlinkyMaHa) and will be updated as code progresses</text>
+## Packages
+## *** Framing Component Baseline Elements
+##
+## 2.2.3 Component Name
+## PackageName: <Component Name>
+##
+## 2.2.6 Unique Identifier
+## SPDXID: "SPDXRef-" followed by letters, numbers, ".", and/or "-".
+## == Recommendation is to use subset of package name for readability.
+## SPDXID: SPDXRef-<PackageName>
+## == SPDX-2.1 Does not support the purl syntax, so it is included as a Package Comment
+## PackageComment: <text> PURL is pkg:supplier/<PackageSupplier>/<PackageName>@<PackageVersion> </text>
+##    Use purl to construct an identifier
+##    scheme:type:namespace/name@version?qualifiers#subpath
+##    scheme: (pkg)
+##  type: (supplier)
+##  namespace: PackageSupplier
+##  name: PackageName
+##  version: PackageVersion
+##  qualifiers#subpath: (skip)
+##
+##  2.2.2 Supplier Name
+## PackageSupplier: <Supplier Name>
+##
+##  2.2.4 Version String
+## PackageVersion: <Version String>
+##
+## 2.2.7 Relationship
+## == Primary Component Relationship (Self)
+## Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-BlinkyMaHa
+## == Included Component Relationship (Included in)
+## Relationship: <SPDXRef-1> CONTAINS <SPDXRef-2 style>
+##
+## Note: The following fields are needed to have a valid document that the tools can process
+##       If you know the values, fill them in, otherwise feel free to use these defaults
+## PackageDownloadLocation: NOASSERTION
+## FilesAnalyzed: false
+## PackageLicenseConcluded: NOASSERTION
+## PackageLicenseDeclared: NOASSERTION
+## PackageCopyrightText: NOASSERTION
+##
+## ***Framing Baseline
+## 2.4 Primary Component (described by the SBOM)
+##
+PackageName: BlinkyMaHa
+SPDXID: SPDXRef-BlinkyMaHa
+PackageComment: <text>PURL is pkg:supplier/sFractal-Consulting/BlinkyMaHa@0.1.1</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/sFractal-Consulting/BlinkyMaHa@0.1.1
+PackageVersion: 0.1.1
+PackageSupplier: Organization: sFractal-Consulting
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-BlinkyMaHa
+Relationship: SPDXRef-BlinkyMaHa CONTAINS NONE
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION

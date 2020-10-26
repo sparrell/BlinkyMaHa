@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<SwidTags>	<SoftwareIdentity name="BlinkyMaHa"
+			  tagId="pkg:supplier/sFractal-Consulting/BlinkyMaHa@0.1.1"
+			  version="0.1.1">
+	  <Entity name="sFractal-Consulting" role="softwareCreator"/>
+	</SoftwareIdentity>
+      
+</SwidTags>
